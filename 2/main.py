@@ -1,0 +1,23 @@
+
+from arbol import Arbol
+
+arbol_numeros = Arbol("A")
+arbol_numeros.agregar("B")
+arbol_numeros.agregar("C")
+arbol_numeros.agregar("E")
+arbol_numeros.agregar("F")
+arbol_numeros.agregar("I")
+arbol_numeros.agregar("J")
+arbol_numeros.agregar("K")
+arbol_numeros.agregar("L")
+arbol_numeros.agregar("M")
+arbol_numeros.agregar("N")
+arbol_numeros.agregar("O")
+arbol_numeros.agregar("P")
+arbol_numeros.agregar("Q")
+arbol_numeros.agregar("D")
+arbol_numeros.agregar("G")
+arbol_numeros.agregar("H")
+arbol_numeros.preorden()
+arbol_numeros.inorden()
+arbol_numeros.postorden()

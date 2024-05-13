@@ -1,0 +1,20 @@
+
+from arbol import Arbol
+
+arbol_numeros = Arbol(9)
+arbol_numeros.agregar(4)
+arbol_numeros.agregar(7)
+arbol_numeros.agregar(6)
+arbol_numeros.agregar(85)
+arbol_numeros.agregar(40)
+arbol_numeros.agregar(22)
+arbol_numeros.agregar(11)
+arbol_numeros.agregar(37)
+arbol_numeros.agregar(39)
+arbol_numeros.agregar(47)
+arbol_numeros.agregar(90)
+arbol_numeros.agregar(88)
+arbol_numeros.agregar(94)
+arbol_numeros.preorden()
+arbol_numeros.inorden()
+arbol_numeros.postorden()
